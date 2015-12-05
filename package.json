@@ -1,0 +1,14 @@
+{
+  "name": "VideoMere",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh",
+    "deploy": "react-native bundle && fastlane beta"
+  },
+  "dependencies": {
+    "react-native": "^0.13.0",
+    "react-native-webrtc": "0.1.5",
+    "socket.io-client": "^1.3.7"
+  }
+}
