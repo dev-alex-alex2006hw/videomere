@@ -22,11 +22,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		196E7A831C12D409007D57B4 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196E7A821C12D409007D57B4 /* Images-2.xcassets */; };
 		19CD1DAA1C1248ED00C7B773 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DA91C1248ED00C7B773 /* MapKit.framework */; };
 		19CD1DAC1C12490800C7B773 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DAB1C12490700C7B773 /* StoreKit.framework */; };
 		19CD1DAF1C12494E00C7B773 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DAE1C12494E00C7B773 /* HealthKit.framework */; };
 		19CD1DB11C12495700C7B773 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DB01C12495700C7B773 /* ExternalAccessory.framework */; };
-		19CD1DB31C12496100C7B773 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DB21C12496100C7B773 /* HomeKit.framework */; };
 		19CD1DB51C1249D000C7B773 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DB41C1249D000C7B773 /* GameKit.framework */; };
 		19CD1DB71C1249D900C7B773 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DB61C1249D900C7B773 /* PassKit.framework */; };
 		19CD1DB91C1249FE00C7B773 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CD1DB81C1249FE00C7B773 /* NetworkExtension.framework */; };
@@ -154,12 +154,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RCTWebRTCDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RCTWebRTCDemo/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		196E7A821C12D409007D57B4 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "RCTWebRTCDemo/Images-2.xcassets"; sourceTree = "<group>"; };
 		19CD1DA91C1248ED00C7B773 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		19CD1DAB1C12490700C7B773 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		19CD1DAD1C12493300C7B773 /* RCTWebRTCDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = RCTWebRTCDemo.entitlements; path = RCTWebRTCDemo/RCTWebRTCDemo.entitlements; sourceTree = "<group>"; };
 		19CD1DAE1C12494E00C7B773 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		19CD1DB01C12495700C7B773 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		19CD1DB21C12496100C7B773 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		19CD1DB41C1249D000C7B773 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		19CD1DB61C1249D900C7B773 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		19CD1DB81C1249FE00C7B773 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
@@ -252,7 +252,6 @@
 				BF4D65B61BB80A0700F1EC41 /* libWebRTC.a in Frameworks */,
 				BF4D65251BB805DE00F1EC41 /* CoreGraphics.framework in Frameworks */,
 				19CD1DB91C1249FE00C7B773 /* NetworkExtension.framework in Frameworks */,
-				19CD1DB31C12496100C7B773 /* HomeKit.framework in Frameworks */,
 				BF4D65231BB805D600F1EC41 /* AudioToolbox.framework in Frameworks */,
 				19CD1DB11C12495700C7B773 /* ExternalAccessory.framework in Frameworks */,
 				BF4D65211BB805CF00F1EC41 /* AVFoundation.framework in Frameworks */,
@@ -360,6 +359,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				BF4D65751BB80A0700F1EC41 /* RCTWebRTC */,
+				196E7A821C12D409007D57B4 /* Images-2.xcassets */,
 			);
 			name = RCTWebRTCDemo;
 			sourceTree = "<group>";
@@ -411,7 +411,6 @@
 				19CD1DB81C1249FE00C7B773 /* NetworkExtension.framework */,
 				19CD1DB61C1249D900C7B773 /* PassKit.framework */,
 				19CD1DB41C1249D000C7B773 /* GameKit.framework */,
-				19CD1DB21C12496100C7B773 /* HomeKit.framework */,
 				19CD1DB01C12495700C7B773 /* ExternalAccessory.framework */,
 				19CD1DAE1C12494E00C7B773 /* HealthKit.framework */,
 				19CD1DAB1C12490700C7B773 /* StoreKit.framework */,
@@ -582,7 +581,7 @@
 						DevelopmentTeam = QNW23K4FHB;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -597,7 +596,7 @@
 								enabled = 1;
 							};
 							com.apple.HomeKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -612,7 +611,7 @@
 								enabled = 1;
 							};
 							com.apple.OMC = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
 								enabled = 1;
@@ -630,7 +629,7 @@
 								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -784,6 +783,7 @@
 			files = (
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				196E7A831C12D409007D57B4 /* Images-2.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -882,6 +882,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_ENTITLEMENTS = RCTWebRTCDemo/RCTWebRTCDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -899,7 +900,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex2006hw.videomere;
 				PRODUCT_NAME = RCTWebRTCDemo;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2fca2f3a-da73-4326-9dda-d977f5a8ee3c";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -908,9 +909,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_ENTITLEMENTS = RCTWebRTCDemo/RCTWebRTCDemo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex Davis (QNW23K4FHB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alex Davis (QNW23K4FHB)";
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_BITCODE = NO;
@@ -925,7 +927,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex2006hw.videomere;
 				PRODUCT_NAME = RCTWebRTCDemo;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2fca2f3a-da73-4326-9dda-d977f5a8ee3c";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
